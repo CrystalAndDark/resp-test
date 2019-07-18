@@ -4,7 +4,7 @@ import os
 # 获取当前脚本所在文件夹路径
 curPath = os.path.dirname(os.path.realpath(__file__))
 # 获取yaml文件路径
-yamlPath = os.path.join(curPath, "test.yaml")
+yamlPath = os.path.join(curPath, "prediction.yaml")
 
 # open方法打开直接读出来
 f = open(yamlPath, 'r', encoding='utf-8')
